@@ -1,0 +1,333 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    color:#707070;
+    font-family: Arial;
+}
+header{
+    min-height: 65px;
+    display:flex;
+    background-color:#f8f6f6;
+    flex-direction: column;
+}
+
+#logo{
+    width:35vw;
+    margin:0 auto;
+}
+#logo img{
+    width: 100%;
+}
+.content {
+}
+.content div {
+    align-self: center;
+}
+
+nav{
+    width:100vw;
+    display:flex;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    float: right;
+    list-style:none;
+}
+nav ul li a{
+    text-decoration:none;
+    font-size:22px;
+    margin-left:20px;
+}
+section{
+    /*display:flex;*/
+    width:95vw;
+    min-height: 50vh;
+    margin-left: 3vw;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+    margin-top:2vh;
+}
+
+section h1{
+    font-size:24px;
+    width: 100%;
+}
+
+section div{
+    width: 99%;
+    margin-top:2vh;
+}
+
+section div p{
+    font-size: 20px;
+}
+
+#inf-img{
+    display:flex;
+    align-items:flex-end;
+}
+
+#inf-img div{
+    width:50%;
+    border:1px solid #707070;
+    margin-right: 2vw;
+}
+#inf-img div img{
+    width: 90%;
+}
+#web-design {
+    border-top: 10px solid #58dd70;
+}
+#programacao {
+    border-top: 10px solid #dd5858;
+}
+#banco-dados {
+    border-top: 10px solid #5757dd;
+}
+#cursos .content div h2 {
+    background-color: #eee8e8;
+    text-align: center;
+    padding: 17px 17px;
+}
+#cursos .content div{
+    width: 80vw;
+    margin-top: 18px;
+}
+#cursos .content div img{
+    width: 100%;
+}
+#planos h2 {
+    margin-top: 10px;
+    background-color:  #eee8e8;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+#plano-bronze{
+    width: 75vw;
+    background-color: #c59b10;
+    padding-top: 1vh;
+}
+#plano-prata{
+    width: 75vw;
+    background-color: #f6eff0;
+    padding-top: 1vh;
+}
+#plano-ouro{
+    width: 75vw;
+    background-color: #f1f120;
+    padding-top: 1vh;
+}
+#planos ul {
+    list-style: none;
+    background-color: #fff;
+    margin-bottom: 7px;
+    width: 75vw;
+}
+#planos span {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 6vw;
+}
+#planos li{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 3vh;
+}
+button {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 1vh;
+}
+#Contratar {
+    display: flex;
+    align-items:  center;
+    justify-content: center ;
+
+}
+#Qualidade h2 {
+    padding-left: 1vw;
+    border-left: 6px solid #4630fd;
+}
+#Eficiência h2{
+    padding-left: 1vw;
+    border-left: 6px solid #fe2222;
+}
+#Compromisso h2{
+    padding-left: 1vw;
+    border-left: 6px solid #088608;
+}
+#Inovacao h2{
+    padding-left: 1vw;
+    border-left: 6px solid #f5fb28;
+}
+#Pesquisa h2{
+    padding-left: 1vw;
+    border-left: 6px solid purple;
+}
+#MeioAmbiente h2{
+    padding-left: 1vw;
+    border-left: 6px solid #30c5fd;
+}
+footer {
+    text-align: center;
+    font-size: 18px;
+
+}
+@media only screen and (min-width:1024px){
+    header{
+        flex-direction:row;
+        padding:5vh;
+    }
+
+    #logo{
+        width:10vw;
+    }
+
+    nav{
+        width:70vw;
+        justify-content: flex-end;
+        margin-right: 5vw;
+        margin-top:5vh;
+    }
+    nav ul li{
+        margin-left: 40px;
+    }
+.content {
+
+}
+#inf {
+    display: flex;
+    align-items: flex-end;
+    width: 40%;
+    align-self: auto;
+    float: left;
+}
+#inf-img {
+    width: 40%;
+    float: right;
+    margin-top: 0px;
+}
+#cursos .content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 0 auto;
+}
+#cursos .content div{
+    align-self: flex-end;
+    width: 30vw;
+    margin-top:20px;
+}
+#cursos .content div h2{
+    font-size: 32px;
+    text-align: center;
+    background-color: #eee8e8;
+    padding: 30px 30px;
+}
+#cursos .content div img{
+    width: 100%;
+}
+#web-design{
+    border-top: 24px solid #58dd77;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+#programacao{
+    border-top: 24px solid #dd5861;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+#banco-dados{
+    border-top: 24px solid #5858dd;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+#planos .content div {
+    align-self: flex-end;
+    margin-right: 1vw;
+}
+#planos .content {
+    display: flex;
+    flex-direction: row;
+}
+#planos h2 {
+    text-align: center;
+    border: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+#planos ul {
+    margin: 0 auto;
+    background-color: #fff;
+    list-style: none;
+    width: 26vw;
+}
+#planos ul li {
+    font-weight: bold;
+    margin-left: 1vw;
+}
+#plano-bronze{
+width: 30vw;
+padding-top: 2vh;
+}
+#plano-prata{
+width: 30vw;
+padding-top: 2vh;
+}
+#plano-ouro{
+width: 30vw;
+padding-top: 2vh; 
+}
+#valores .content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#valores .content div{
+    align-self: flex-start;
+    width: 30vw;
+}
+#Qualidade h2 {
+    padding-left: 8px;
+    border-left: 12px solid #4630fd;
+}
+#Eficiência h2{
+    padding-left: 8px;
+    border-left: 12px solid #fe2222;
+}
+#Compromisso h2{
+    padding-left: 8px;
+    border-left: 12px solid #088608;
+}
+#Inovacao h2{
+    padding-left: 8px;
+    border-left: 12px solid #f5fb28;
+}
+#Pesquisa h2{
+    padding-left: 8px;
+    border-left: 12px solid purple;
+}
+#MeioAmbiente h2{
+    padding-left: 8px;
+    border-left: 12px solid #30c5fd;
+}
+#valores .content div {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+#valores .content h2 {
+    margin-bottom: 10px;
+}
+footer {
+    font-size: 20px;
+}
+
+
+}
+
